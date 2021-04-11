@@ -1,0 +1,51 @@
+*{
+    font-size: 15px;
+}
+
+/* loader */
+#logo{
+    margin: 180px;
+    height: 100px;
+}
+
+/* header */
+header{
+    padding: 10px 0 10px 0;
+    background-color: #7bfcaa;
+}
+#wname{
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+#menu{
+    height: 25px;
+    float: right;
+    margin-right: 5px;
+}
+
+/* message section */
+.message div{
+    padding: 0 5px 0 5px;
+    border-bottom: 1px solid;
+}
+
+.mess{
+    display: inline-block;
+}
+.time{
+    float: right;
+}
+
+
+/* footer */
+#bottom{
+    text-align: center;
+}
+
+/* for screens larger than 600px */
+@media screen and (min-width:600px){
+    #logo{
+        margin-left: 550px;
+    }
+}
