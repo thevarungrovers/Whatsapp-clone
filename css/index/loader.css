@@ -1,0 +1,27 @@
+.loader{
+    animation: loader 1.5s 1;
+    display: block;
+}
+
+@keyframes loader {
+    0%{
+        transform: scale(1);
+        
+    }
+    100%{
+        transform: scale(0);
+        display: ruby;
+    }
+}
+#logo{
+    margin: 180px;
+    height: 100px;
+
+}
+
+/* for screens larger than 600px */
+@media screen and (min-width:600px){
+    #logo{
+        margin-left: 550px;
+    }
+}

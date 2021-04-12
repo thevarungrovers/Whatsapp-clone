@@ -10,44 +10,65 @@
 
     <title>WhatsApp</title>
     <!-- css -->
-    <link rel="stylesheet" href="css/load.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index/message_section.css">
+    <link rel="stylesheet" href="css/index/new_chat.css">
     <style>
         
     </style>
   </head>
   <body>
     <!-- loader -->
-	<div class="loader center">
-    <img src="images/whatsapp.svg" id="logo" alt="">
+	<div class="loader">
+    <img src="images/whatsapp.svg" id="logo" alt="WhatsApp">
 
+    <br>
     <br>
     <br>
     <br>
     <hr>
     <p id="bottom">Cloned by Varun Grover</p>
 </div> 
+<!-- loader -->
+<!-- <script src="js/load.js"></script> -->
 
+<!-- header -->
 <header>
     <span id="wname">
         WhatsApp
     </span>
     <span>
-        <img src="images/menu.svg" id="menu" alt="">
+            <img src="images/menu.svg" id="menu" alt="">
+        <div id="dropdown_content" class="dropdown_content">
+            <p>New group</p>
+            <p>New broadcast</p>
+            <p>WhatsApp Web</p>
+            <p>Starred messages</p>
+            <p>Payments</p>
+            <p>Settings</p>
+        </div>
     </span>
+    <script src="js/dropdown_menu.js"></script>
 </header>
+
 
 <!-- message section -->
 <div class="message">
 
     <div class="read">
-        <p class="name">
-            HTML
-        </p>
-        <p class="last_message mess">
-            Lets start new project
-        </p>
-        <p class="time mess">
+        <span class="image info">
+            <img src="https://www.flaticon.com/svg/vstatic/svg/174/174854.svg?token=exp=1618227352~hmac=ade3731cd7121678732f2415e5e15b60" alt="">
+        </span>
+        <span class="info">
+            <p class="name">
+                HTML
+            </p>
+            <p class="last_message mess">
+                Lets start new project
+            </p>
+        </span>
+        <p class="time">
             20:30
         </p>
     </div>
@@ -65,30 +86,36 @@
     </div> -->
 
     <div class="unread">
-        <p class="name">
-            React JS
-        </p>
-        <p class="last_message">
-            
-        </p>
-        <p class="time">
-
-        </p>
+        <span class="image info">
+            <img src="images/javascript.svg" alt="">
+        </span>
+        <span class="info">
+            <p class="name">
+                JavaScript
+            </p>
+            <p class="last_message">
+                Start learning loops
+            </p>
+    </span>
+    <p class="time mess">
+        14:00
+    </p>
+    <!-- <p class="number">
+        1
+    </p> -->
     </div>
 
-    <div class="read">
-        <p class="name"></p>
-        <p class="last_message"></p>
-        <p class="time"></p>
-    </div>
 
+</div>
+
+<!-- new chat -->
+<div class="new_chat">
+   <img src="https://www.flaticon.com/svg/vstatic/svg/1237/1237946.svg?token=exp=1618228864~hmac=b2e6730254a3b44b5be6725ae0ee1078" alt="">
 </div>
 
 
 
 
-<!-- loader -->
-<script src="js/load.js"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

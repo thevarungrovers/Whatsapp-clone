@@ -1,0 +1,14 @@
+.new_chat img{
+    height: 35px;
+    background: #00b894;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.new_chat{
+    cursor: pointer;
+   position: absolute;
+   bottom: 5px;
+   right: 5px;
+}
+

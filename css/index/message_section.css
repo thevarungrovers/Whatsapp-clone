@@ -1,0 +1,28 @@
+.message div{
+    padding: 0 5px 0 5px;
+    border-bottom: 1px solid;
+}
+.name{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.info{
+    display: inline-block;
+}
+.image img {
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 1px solid inherit;
+}
+.number{
+    display: inline-block;
+}
+.time{
+    float: right;
+}
+
+.unread{
+    font-weight: 700;
+
+}
