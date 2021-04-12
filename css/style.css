@@ -9,8 +9,8 @@ header{
 }
 #wname{
     margin-left: 5px;
-    color: #fff;
     font-weight: 500;
+    color: #fff;
 }
 #menu{
     height: 25px;
@@ -28,6 +28,7 @@ header{
     border: 1px solid;
     display: none;
     animation: content 1s 1;
+    z-index: 1;
 }
 @keyframes content{
     0%{
@@ -44,8 +45,43 @@ header{
     padding: 2px;
 }
 
+#camera{
+    height: 25px;
+}
+
+.options span{
+    position: relative;
+    bottom: -20px;
+    margin:0 38px 0 38px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.options span:nth-child(2){
+    border-bottom:3px solid #fff;
+}
+
+
 /* footer */
 #bottom{
     text-align: center;
 }
 
+
+@media screen and (min-width:760px){
+    .options span{
+        margin:0 70px 0 70px;
+    }
+}
+
+@media screen and (min-width:1280px){
+    .options span{
+        margin:0 130px 0 130px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .options span{
+        margin:0 23px 0 23px;
+    }
+}
