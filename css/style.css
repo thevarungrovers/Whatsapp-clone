@@ -12,6 +12,35 @@ header{
     font-weight: 500;
     color: #fff;
 }
+
+/* search */
+#search_icon{
+    height: 28px;
+    position: absolute;
+    right: 60px;
+    top: 6px;
+    cursor: pointer;
+}
+#search{
+    border: none;
+   width: 100%;
+   height: 35px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   border: 1px solid ;
+    display: none;
+    z-index: 1;
+}
+
+#close{
+    height: 25px;
+    float: right;
+    margin-right: 10px;
+    z-index: 5;
+}
+
+/* menu */
 #menu{
     height: 25px;
     float: right;
@@ -57,7 +86,7 @@ header{
     color: #fff;
 }
 
-.options span:nth-child(2){
+.options span:nth-child(3){
     border-bottom:3px solid #fff;
 }
 

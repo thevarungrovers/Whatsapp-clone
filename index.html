@@ -39,6 +39,11 @@
         WhatsApp
     </span>
     <span>
+        <input type="search" name="" id="search">
+            <img src="images/search.svg" id="search_icon" alt="">
+        <script src="js/search.js"></script>
+    </span>
+    <span>
             <img src="images/menu.svg" id="menu" alt="">
         <div id="dropdown_content" class="dropdown_content">
             <p>New group</p>
@@ -49,7 +54,17 @@
             <p>Settings</p>
         </div>
     </span>
-    <p class="options">
+    <p onclick="hide()" class="options">
+        <script>
+            var options = document.querySelector('.options');
+            var search = document.getElementById('search');
+            var search_icon = document.getElementById('search_icon');
+            
+            function hide(){
+                search.style.display = 'none';
+                search_icon.style.display = 'block';
+            };
+        </script>
         <span>
             <img src="images/camera.svg" id="camera" alt="">
         </span>
@@ -163,7 +178,7 @@
                 08:00
             </p>
         </div>
-</div>
+    </div>
 
 <!-- new chat -->
 <div class="new_chat">
