@@ -78,38 +78,43 @@ header{
     height: 25px;
 }
 
-.options span{
+/* options */
+.options span {
     position: relative;
     bottom: -20px;
-    margin:0 38px 0 38px;
     cursor: pointer;
     color: #fff;
-}
-
-.options span:nth-child(3){
     border-bottom:3px solid #fff;
-}
+    margin: 0 8% 0 8%;
+  }
+  
+  .options span:nth-child(3) {
+    border-bottom: 3px solid #fff;
+  }
+  
 
-/* footer */
+  /* footer */
 #bottom{
     text-align: center;
 }
 
 
-@media screen and (min-width:760px){
-    .options span{
-        margin:0 70px 0 70px;
-    }
-}
 
-@media screen and (min-width:1280px){
-    .options span{
-        margin:0 130px 0 130px;
-    }
-}
-
-@media screen and (max-width:500px){
-    .options span{
-        margin:0 23px 0 23px;
-    }
-}
+  @media screen and (max-width:500px) {
+    .options span {
+      margin: 0 7% 0 7%;
+     }
+  }
+  
+  @media screen and (max-width:400px) {
+    .options span {
+      margin: 0 5% 0 5%;
+     }
+  }
+  
+  @media screen and (min-width:700px) {
+    .options span {
+      margin: 0 8% 0 8%;
+     }
+  }
+  
