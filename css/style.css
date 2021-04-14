@@ -84,11 +84,10 @@ header{
     bottom: -20px;
     cursor: pointer;
     color: #fff;
-    border-bottom:3px solid #fff;
     margin: 0 8% 0 8%;
   }
   
-  .options span:nth-child(3) {
+  .options span:hover {
     border-bottom: 3px solid #fff;
   }
   
