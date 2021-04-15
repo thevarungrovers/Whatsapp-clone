@@ -7,8 +7,7 @@
 
 .new_chat{
     cursor: pointer;
-   position: absolute;
+   position: fixed;
    bottom: 5px;
    right: 5px;
 }
-
