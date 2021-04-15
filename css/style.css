@@ -1,7 +1,13 @@
 *{
     font-size: 15px;
 }
-
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: inherit;
+}
 /* header */
 header{
     padding: 10px 0 10px 0;

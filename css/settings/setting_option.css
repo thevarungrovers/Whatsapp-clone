@@ -1,0 +1,18 @@
+.option_image{
+    height: 35px;
+}
+
+.setting_option div {
+    border-bottom: 1px solid #8395a7;
+    margin-top: 5px;
+}
+
+.setting_option div p:nth-child(3){
+    color: #8395a7 ;
+    font-size: 14px;
+}
+
+.setting_option div p:nth-child(2){
+    font-weight: 500;
+    font-size: 18px;
+}
