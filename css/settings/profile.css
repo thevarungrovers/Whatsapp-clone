@@ -1,3 +1,11 @@
 #profile_image{
     height: 50px;
 }
+
+.info{
+    display: inline-block;
+}
+
+.profile{
+    margin-top: 10px;
+}
